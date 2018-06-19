@@ -3,5 +3,13 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  array.sort 
-end 
+  array.sort do |a, b|
+  if a == b
+     0
+  elsif b < a
+     -1
+  elsif b > a
+     1
+  end
+end
+
