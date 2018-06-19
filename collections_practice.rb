@@ -67,6 +67,8 @@ def add_s(array)
     array.each_with_index do |name, index|
       if index != 1
         new_array2 << "#{name}s"
+      elsif index == 1 
+        
       end 
     end
     new_array2
