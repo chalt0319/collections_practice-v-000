@@ -40,12 +40,12 @@ def reverse_array(array)
   array.reverse 
 end 
 
-def kesha_maker(array) 
-  new_array = []
-  array.each do |element|
+#def kesha_maker(array) 
+#  new_array = []
+ # array.each do |element|
    
-  end 
-end 
+#  end 
+#end 
 
 def find_a(array)
   array.select do |element|
