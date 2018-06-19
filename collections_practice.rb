@@ -45,10 +45,10 @@ end
 def kesha_maker(array) 
   new_array = []
   array.each do |element|
-    element[2]
-    
+    new_array << element[2] = "$"
   binding.pry 
   end 
+  new_array
 end 
 
 def find_a(array)
