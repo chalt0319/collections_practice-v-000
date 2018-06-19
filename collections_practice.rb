@@ -65,7 +65,7 @@ end
 def add_s(array)
   new_array2 = []
     array.each_with_index do |name, index|
-      if index /= 2 
+      if !index == 2 
         new_array2 << "#{name}s"
       end 
     end
