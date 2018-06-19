@@ -48,7 +48,6 @@ def kesha_maker(array)
     element[2] = "$"
     new_array << element 
   end 
-  binding.pry 
   new_array
 end 
 
