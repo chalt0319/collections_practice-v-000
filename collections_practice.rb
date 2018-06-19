@@ -70,4 +70,5 @@ def add_s(array)
         new_array2 << "#{name}s"
       end 
     end
+    new_array2
 end   
