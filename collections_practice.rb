@@ -42,8 +42,7 @@ end
 
 def kesha_maker(array) 
   new_array = []
-  array.each_with_index do |element, index|
-    
+  array.each do |element|
    
   end 
 end 
