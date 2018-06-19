@@ -61,3 +61,13 @@ def sum_array(array)
   sum 
 end   
 
+def add_s(array)
+  new_array2 = []
+    array.each do |name|
+      if array[1]
+        array[1]
+      else 
+        new_array2 << "#{name}s"
+      end 
+    end
+end   
