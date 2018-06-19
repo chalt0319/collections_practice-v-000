@@ -43,7 +43,7 @@ end
 def kesha_maker(array) 
   new_array = []
   array.step(3) do |element|
-    
+    array[element] 
     new_array << 
 end 
 
